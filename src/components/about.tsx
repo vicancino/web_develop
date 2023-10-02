@@ -10,6 +10,10 @@ function about() {
     <div className='row'>
     {Data_personas.map(persona => <Person name={persona.nombre} img={persona.imagen} descripcion = {persona.descripcion}></Person>)}
     </div>
+    <h1>Ayudantes</h1>
+    <div className="row">
+    {Data_personas.map(persona => <Person name={persona.nombre} img={persona.imagen} descripcion = {persona.descripcion}></Person>)}
+    </div>
     </>
   )
 }
