@@ -1,3 +1,27 @@
+.rounded-circle{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.container-img{
+    text-align: center;
+}
+
+.description{
+    max-width: 300px;
+    max-height: 300px;
+    justify-content: center;
+}
+
+.subtitle{
+    max-width: 200px;
+    max-height: 300px;
+    text-align: center;
+}
+
+
+/*----------HOME--------------*/
+
 .Titulo{
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -5,21 +29,19 @@
 }
 
 .sub_titulo{
-    margin-top: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    margin-left: 18rem; 
 }
 
 h1{
     text-align: center;
 }
 
-h2{
-    text-align: left;
-    margin-left: 5rem;
-}
 
 p{
     text-align: justify;
-    margin: 5rem;
+    margin: 18rem;
 }
 
   
@@ -35,7 +57,7 @@ p{
     z-index: 1; /* Asegúrate de que el fondo oscuro esté por encima de la imagen */
   }
   
-  .overlay-text {
+.overlay-text {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -48,15 +70,40 @@ p{
 .overlay-text h2,
 .overlay-text p {
     margin: 0;
-  }
+}
   
 .card:hover .overlay-text {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9));
   }
  
-.custom-card {
+.custom-card{
     position: relative;
     width: 18rem;
-    height: 25rem;
+    height: 20rem;
     overflow: hidden; /* Para ocultar cualquier contenido que se desborde */
   }
+
+.card:hover{
+  width: 18rem;
+  height: 20rem;
+}
+
+.relleno-imagen{
+  
+}
+
+/*----------HOME--------------*/
+/*----------ABOUT--------------*/
+
+img{
+    width: 250px;
+    height: 250px;
+    vertical-align: middle;
+
+}
+
+.col-about{
+    text-align: center;
+}
+
+/*----------ABOUT--------------*/

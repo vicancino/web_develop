@@ -1,10 +1,11 @@
 import React from "react";
-import './styles.css'
+import '../../styles.css'
+
 function persona(props) {
   return (
     <>
       <div className="col container-img">
-        <img className="rounded-circle" src={props.img} />
+        <img className="rounded-circle" src={props.img} alt="Img" />
         <div>
           <h2 className="subtitle">{props.name}</h2>
           <p className="description">{props.descripcion}</p>

@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Nav, NavDropdown, Navbar } from "react-bootstrap";
 import { Outlet, Link } from "react-router-dom";
 import Carousel from "react-bootstrap/Carousel";
+import "./Navbar.css";
 
 function BasicExample() {
   return (

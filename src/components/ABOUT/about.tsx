@@ -1,7 +1,7 @@
 import React, { cloneElement } from "react";
-import "./about.css";
 import Person from "./persona"
-import Data_personas from './data_personas' 
+import Data_personas from './data_personas'
+import '../../styles.css'; 
 
 function about() {
       return (
