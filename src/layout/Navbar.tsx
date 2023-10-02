@@ -17,19 +17,12 @@ function BasicExample() {
               <Nav.Link as={Link} to="/about">
                 Quienes somos
               </Nav.Link>
-              <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Another action
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
-                  Something
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
-                </NavDropdown.Item>
-              </NavDropdown>
+              <Nav.Link as={Link} to="/contact">
+                Contacto
+              </Nav.Link>
+              <Nav.Link as={Link} to="/gallery">
+                Galeria
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -40,7 +33,7 @@ function BasicExample() {
             <Link to="/about">
               <img
                 className="d-block w-100"
-                src="src\assets\slider_1.png"
+                src="src/assets/Navbar_images/slider_1.png"
                 alt="Primera Imagen"
               />
               <Carousel.Caption className="Slider">
@@ -55,7 +48,7 @@ function BasicExample() {
           <Carousel.Item className="Slider">
             <img
               className="d-block w-100"
-              src="src\assets\slider_1.png"
+              src="src/assets/Navbar_images/slider_1.png"
               alt="Primera Imagen"
             />
             <Carousel.Caption className="Slider">
@@ -66,7 +59,7 @@ function BasicExample() {
           <Carousel.Item className="Slider">
             <img
               className="d-block w-100"
-              src="src\assets\slider_1.png"
+              src="src/assets/Navbar_images/slider_1.png"
               alt="Primera Imagen"
             />
             <Carousel.Caption className="Slider">

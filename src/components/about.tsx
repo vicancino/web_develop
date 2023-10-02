@@ -12,7 +12,7 @@ function about() {
           <div className="col">
             <img
               className="rounded-circle"
-              src="src\assets\blank-person.jpg"
+              src="src/assets/about_images/blank-person.jpg"
               alt="Generic"
             />
             <h2 className="subtitle">Primer Header</h2>
@@ -24,7 +24,7 @@ function about() {
           <div className="col">
             <img
               className="rounded-circle"
-              src="src\assets\blank-person.jpg"
+              src="src/assets/about_images/blank-person.jpg"
               alt="Generic"
             />
             <h2 className="subtitle">Segundo Header</h2>
@@ -36,7 +36,7 @@ function about() {
           <div className="col">
             <img
               className="rounded-circle"
-              src="src\assets\blank-person.jpg"
+              src="src/assets/about_images/blank-person.jpg"
               alt="Generic"
             />
             <h2 className="subtitle">Tercer Header</h2>
@@ -55,7 +55,7 @@ function about() {
           <div className="col">
             <img
               className="rounded-circle"
-              src="src\assets\blank-person.jpg"
+              src="src/assets/about_images/blank-person.jpg"
               alt="Generic"
             />
             <h2 className="subtitle">Primer Header</h2>
@@ -67,7 +67,7 @@ function about() {
           <div className="col">
             <img
               className="rounded-circle"
-              src="src\assets\blank-person.jpg"
+              src="src/assets/about_images/blank-person.jpg"
               alt="Generic"
             />
             <h2 className="subtitle">Segundo Header</h2>
@@ -79,7 +79,7 @@ function about() {
           <div className="col">
             <img
               className="rounded-circle"
-              src="src\assets\blank-person.jpg"
+              src="src/assets/about_images/blank-person.jpg"
               alt="Generic"
             />
             <h2 className="subtitle">Tercer Header</h2>
