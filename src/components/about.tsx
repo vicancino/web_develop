@@ -9,38 +9,38 @@ function about() {
       </div>
       <div className="container">
         <div className="row">
-          <div className="col">
+          <div  className="col col-about">
             <img
               className="rounded-circle"
               src="src/assets/about_images/blank-person.jpg"
               alt="Generic"
             />
-            <h2 className="subtitle">Primer Header</h2>
-            <p className="paragraph">
+            <h2>Primer Header</h2>
+            <p>
               Descripcion del primer profesor esto puede incluir nombres fechas
               y roles principales
             </p>
           </div>
-          <div className="col">
+          <div className="col col-about">
             <img
               className="rounded-circle"
               src="src/assets/about_images/blank-person.jpg"
               alt="Generic"
             />
-            <h2 className="subtitle">Segundo Header</h2>
-            <p className="paragraph">
+            <h2>Segundo Header</h2>
+            <p>
               Descripcion del primer profesor esto puede incluir nombres fechas
               y roles principales
             </p>
           </div>
-          <div className="col">
+          <div className="col col-about">
             <img
               className="rounded-circle"
               src="src/assets/about_images/blank-person.jpg"
               alt="Generic"
             />
-            <h2 className="subtitle">Tercer Header</h2>
-            <p className="paragraph">
+            <h2>Tercer Header</h2>
+            <p>
               Descripcion del primer profesor esto puede incluir nombres fechas
               y roles principales
             </p>
@@ -58,8 +58,8 @@ function about() {
               src="src/assets/about_images/blank-person.jpg"
               alt="Generic"
             />
-            <h2 className="subtitle">Primer Header</h2>
-            <p className="paragraph">
+            <h2>Primer Header</h2>
+            <p>
               Descripcion del primer profesor esto puede incluir nombres fechas
               y roles principales
             </p>
@@ -70,8 +70,8 @@ function about() {
               src="src/assets/about_images/blank-person.jpg"
               alt="Generic"
             />
-            <h2 className="subtitle">Segundo Header</h2>
-            <p className="paragraph">
+            <h2>Segundo Header</h2>
+            <p>
               Descripcion del primer profesor esto puede incluir nombres fechas
               y roles principales
             </p>
@@ -82,8 +82,8 @@ function about() {
               src="src/assets/about_images/blank-person.jpg"
               alt="Generic"
             />
-            <h2 className="subtitle">Tercer Header</h2>
-            <p className="paragraph">
+            <h2>Tercer Header</h2>
+            <p>
               Descripcion del primer profesor esto puede incluir nombres fechas
               y roles principales
             </p>

@@ -1,0 +1,62 @@
+.Titulo{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.sub_titulo{
+    margin-top: 3rem;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: left;
+    margin-left: 5rem;
+}
+
+p{
+    text-align: justify;
+    margin: 5rem;
+}
+
+  
+.image-overlay::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro con opacidad */
+    z-index: 1; /* Asegúrate de que el fondo oscuro esté por encima de la imagen */
+  }
+  
+  .overlay-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    color: white; /* Color del texto */
+    z-index: 2; /* Asegúrate de que el texto esté por encima del fondo oscuro */
+  }
+  
+.overlay-text h2,
+.overlay-text p {
+    margin: 0;
+  }
+  
+.card:hover .overlay-text {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9));
+  }
+ 
+.custom-card {
+    position: relative;
+    width: 18rem;
+    height: 25rem;
+    overflow: hidden; /* Para ocultar cualquier contenido que se desborde */
+  }
