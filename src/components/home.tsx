@@ -1,9 +1,8 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import "./home.css"
-import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
-
+import dataNoticias from "./data_noticia"
+import Noticia from "./noticia"
 
 
 function home() {
@@ -29,143 +28,10 @@ function home() {
         <div className="sub_titulo">
           <h2>Noticias</h2>
         </div>
-        <div className="container">
-          <div className="row">
-            <div className="col">
-              <Card style={{ width: '18rem', height: '25rem' }}>
-                <div className="image-overlay">
-                  <Card.Img variant="top" src="holder.js/100px180" />
-                  <div className="overlay-text">
-                    <Card.Body>
-                      <Card.Title>Card Title</Card.Title>
-                      <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
-                      </Card.Text>
-                      <Button variant="primary">Go somewhere</Button>
-                    </Card.Body>
-                  </div>
-                </div>
-              </Card>
-            </div>
-            <div className="col">
-              <Card style={{ width: '18rem', height: '25rem' }}>
-                <div className="image-overlay">
-                  <Card.Img variant="top" src="holder.js/100px180" />
-                  <div className="overlay-text">
-                    <Card.Body>
-                      <Card.Title>Card Title</Card.Title>
-                      <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
-                      </Card.Text>
-                      <Button variant="primary">Go somewhere</Button>
-                    </Card.Body>
-                  </div>
-                </div>
-              </Card>
-            </div>
-            <div className="col">
-              <Card style={{ width: '18rem', height: '25rem' }}>
-                <div className="image-overlay">
-                  <Card.Img variant="top" src="holder.js/100px180" />
-                  <div className="overlay-text">
-                    <Card.Body>
-                      <Card.Title>Card Title</Card.Title>
-                      <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
-                      </Card.Text>
-                      <Button variant="primary">Go somewhere</Button>
-                    </Card.Body>
-                  </div>
-                </div>
-              </Card>
-            </div>
-            <div className="col">
-              <Card style={{ width: '18rem', height: '25rem' }}>
-                <div className="image-overlay">
-                  <Card.Img variant="top" src="holder.js/100px180" />
-                  <div className="overlay-text">
-                    <Card.Body>
-                      <Card.Title>Card Title</Card.Title>
-                      <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
-                      </Card.Text>
-                      <Button variant="primary">Go somewhere</Button>
-                    </Card.Body>
-                  </div>
-                </div>
-              </Card>
-            </div>
-          </div>
-
-          <div className="row">
-            <div className="col">
-              <Card style={{ width: '18rem', height: '25rem' }}>
-                <div className="image-overlay">
-                  <Card.Img variant="top" src="holder.js/100px180" />
-                  <div className="overlay-text">
-                    <Card.Body>
-                      <Card.Title>Card Title</Card.Title>
-                      <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
-                      </Card.Text>
-                      <Button variant="primary">Go somewhere</Button>
-                    </Card.Body>
-                  </div>
-                </div>
-              </Card>
-            </div>
-            <div className="col">
-              <Card style={{ width: '18rem', height: '25rem' }}>
-                <div className="image-overlay">
-                  <Card.Img variant="top" src="holder.js/100px1000" />
-                  <div className="overlay-text">
-                    <Card.Body>
-                      <Card.Title>Card Title</Card.Title>
-                      <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
-                      </Card.Text>
-                      <Button variant="primary">Go somewhere</Button>
-                    </Card.Body>
-                  </div>
-                </div>
-              </Card>
-            </div>
-            <div className="col">
-              <Card style={{ width: '18rem', height: '25rem' }}>
-                <div className="image-overlay">
-                  <Card.Img src="src\assets\home_images\ig_noti.jpg" />
-                  <div className="overlay-text">
-                    <Card.Body>
-                      <Card.Title>Card Title</Card.Title>
-                      <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
-                      </Card.Text>
-                      <Button variant="primary">Go somewhere</Button>
-                    </Card.Body>
-                  </div>
-                </div>
-              </Card>
-            </div>
-            <div className="col">
-              <Card>
-                  <Card.Img variant="top" src="src\assets\home_images\ig_noti.jpg" />
-                    <Card.Body>
-                      <Card.Title>Card Title</Card.Title>
-                      <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
-                      </Card.Text>
-                      <Button variant="primary">Go somewhere</Button>
-                    </Card.Body>
-              </Card>
-            </div>
+        <div className = "container">
+          <div className = "row">
+            {dataNoticias.map(noticia =>
+              <Noticia Img={noticia.Img} title={noticia.title} desc={noticia.desc}></Noticia>)}
           </div>
         </div>
       </div>
