@@ -1,0 +1,27 @@
+#titulo{
+    text-align: center;
+}
+
+.subtitle{
+    text-align: center;
+}
+
+.paragraph{
+    text-align: center;
+}
+
+.container{
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    vertical-align: middle;
+
+}
+
+.col{
+    text-align: center;
+}
