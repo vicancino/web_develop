@@ -1,15 +1,5 @@
 import React from 'react'
 import '../../styles.css'
-
-function contact() {
-  return (
-    <div>contact</div>
-  )
-}
-
-export default contact
-import React from 'react'
-import '../../styles.css'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 
