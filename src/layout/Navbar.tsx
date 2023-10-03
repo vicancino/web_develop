@@ -47,17 +47,20 @@ function BasicExample() {
             </Link>
           </Carousel.Item>
           <Carousel.Item className="Slider">
+            <Link to="/contact">
             <img
               className="d-block w-100"
               src="src/assets/Navbar_images/slider_1.png"
               alt="Primera Imagen"
             />
             <Carousel.Caption className="Slider">
-              <h3>Second slide label</h3>
+              <h3>Contactanos!</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </Carousel.Caption>
+            </Link>
           </Carousel.Item>
           <Carousel.Item className="Slider">
+          <Link to="/gallery">
             <img
               className="d-block w-100"
               src="src/assets/Navbar_images/slider_1.png"
@@ -69,6 +72,7 @@ function BasicExample() {
                 Praesent commodo cursus magna, vel scelerisque nisl consectetur.
               </p>
             </Carousel.Caption>
+            </Link>
           </Carousel.Item>
         </Carousel>
       </div>
