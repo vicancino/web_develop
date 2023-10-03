@@ -1,8 +1,10 @@
 import React from "react";
-import Carousel from "react-bootstrap/Carousel";
-import '../../styles.css'
+import "../../styles.css";
 import dataNoticias from "./data_noticia";
+import data_carousel_event from "./data_carousel_event";
 import Noticia from "./noticia";
+import Carousel_event from "./carousel_event";
+import Carousel from "react-bootstrap/Carousel";
 
 function home() {
   return (
@@ -11,7 +13,7 @@ function home() {
         <div className="Titulo">
           <h1>Aspectos generales</h1>
         </div>
-        <div>
+        <div className = "intro">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
             dignissim tortor vitae lorem pulvinar tempus. Cras venenatis est
@@ -44,8 +46,16 @@ function home() {
         </div>
         <div className="sub_titulo">
           <h2>Eventos</h2>
-          <div>
-
+        </div>
+        <div className="container">
+          <div className="row">
+            {dataNoticias.map((noticia) => (
+              <Noticia
+                Img={noticia.Img}
+                title={noticia.title}
+                desc={noticia.desc}
+              ></Noticia>
+            ))}
           </div>
         </div>
       </div>

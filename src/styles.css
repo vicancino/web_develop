@@ -1,3 +1,25 @@
+.rounded-circle{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.container-img{
+    text-align: center;
+}
+
+.description{
+    max-width: 300px;
+    max-height: 300px;
+    justify-content: center;
+}
+
+.subtitle{
+    max-width: 200px;
+    max-height: 300px;
+    text-align: center;
+}
+
+
 /*----------HOME--------------*/
 
 .Titulo{
@@ -12,16 +34,17 @@
     margin-left: 18rem; 
 }
 
-.sh1{
+h1{
     text-align: center;
 }
 
 
-.sp{
+p{
     text-align: justify;
-    margin: 18rem;
+    margin: 3rem;
+    margin-left: 18rem;
+    margin-right: 18rem;
 }
-
   
 .image-overlay::before {
     content: '';
@@ -66,15 +89,18 @@
   height: 20rem;
 }
 
-/*----------HOME--------------*/
-/*----------ABOUT--------------*/
-.rounded-circle{
-    max-width: 200px;
-    max-height: 200px;
+.relleno-imagen{
+  
 }
 
-.about-container-img{
-    text-align: center;
+/*----------HOME--------------*/
+/*----------ABOUT--------------*/
+
+img{
+    width: 250px;
+    height: 250px;
+    vertical-align: middle;
+
 }
 
 .descrip{
