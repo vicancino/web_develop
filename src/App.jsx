@@ -3,10 +3,10 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 
 import About from "./components/ABOUT/about";
-import Contact from "./components/contact";
+import Contact from "./components/CONTACT/contact";
 import Home from "./components/HOME/home";
 import Navbar from "./layout/Navbar";
-import Gallery from "./components/gallery"
+import Gallery from "./components/GALLERY/gallery"
 
 function App() {
   return (
