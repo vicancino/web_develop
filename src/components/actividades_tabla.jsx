@@ -74,11 +74,13 @@ function actividades_tabla() {
       ));
 
   return (
-    <div><div className="carrusel_ayudantes_margin">
+    <div>
+      <div className="carrusel_ayudantes_margin">
     <div className="carusel-container">
       <Carousel responsive={responsive}>{actividad}</Carousel>
     </div>
-  </div></div>
+  </div>
+  </div>
   )
 }
 

@@ -174,7 +174,8 @@
 }
 
 .carrusel_ayudantes_margin{
-    margin: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 /*carrusel_incio*/
@@ -323,7 +324,7 @@
     padding: 0;
     box-sizing: border-box;
     width: 100%;
-    height: 100vh;
+    height: 50vh;
     background-color: rgb(255, 255, 255);
     font: 'roboto', sans-serif;
     display: flex;
