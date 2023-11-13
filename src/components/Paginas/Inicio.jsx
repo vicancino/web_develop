@@ -3,6 +3,7 @@ import Banner_inicio from '../banner_inicio'
 import Desc_Lab from '../desc_lab'
 import Carrusel_inicio from '../carrusel_inicio'
 import Carrusel_ayudantes from '../inicio_card_carusel'
+import Footer  from '../footer'
 
 
 function Inicio() {
@@ -29,6 +30,7 @@ function Inicio() {
           Nulla lacinia nisl sit amet diam maximus, vel feugiat arcu sagittis. Nullam vel congue metus.</p>
       </div>
       <Carrusel_ayudantes/>
+      <Footer/>
     </div>
     
   )
