@@ -2,6 +2,7 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Inicio_card_ayudante from "./inicio_card_ayudante";
+import { useFetch } from "./useFetch";
 
 function inicio_carusel() {
   const responsive = {
@@ -24,6 +25,8 @@ function inicio_carusel() {
     },
   };
 
+  const {data} = useFetch("https://jsonplaceholder.typicode.com/users")
+  
   const ayudantes = [
     {
       id: 1,

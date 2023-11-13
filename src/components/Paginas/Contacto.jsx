@@ -1,10 +1,12 @@
 import React from "react";
+import { useState, useEffect } from "react";
 
 function contact() {
+
   return (
     <div className="margen_form">
       <h1 className="text_login centrado">Contacto</h1>
-      <form>
+      <form className="form">
         <div class="mb-3">
           <label for="disabledSelect" class="form-label">
             ¿Que eres?
